@@ -1,2 +1,64 @@
-<h1>Brocode Software</h1>
-<p>test</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Client Business</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>Client Business</h1>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <section id="hero">
+    <div class="container">
+      <h2>Welcome to Our Business</h2>
+      <p>Delivering excellence in every step.</p>
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="container">
+      <h2>About Us</h2>
+      <p>We are a dedicated team providing top-tier services tailored to your needs.</p>
+    </div>
+  </section>
+
+  <section id="services">
+    <div class="container">
+      <h2>Our Services</h2>
+      <ul class="service-list">
+        <li>Consulting</li>
+        <li>Design & Development</li>
+        <li>Customer Support</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="container">
+      <h2>Contact Us</h2>
+      <form method="POST" action="https://api.brocodesoftware.com/contact">
+        <input type="text" name="name" placeholder="Your Name" required />
+        <input type="email" name="email" placeholder="Your Email" required />
+        <textarea name="message" placeholder="Your Message..." required></textarea>
+        <button type="submit">Send</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>© 2025 Client Business. Powered by BroCodeSoftware.</p>
+    </div>
+  </footer>
+</body>
+</html>
